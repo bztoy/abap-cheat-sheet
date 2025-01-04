@@ -22,6 +22,8 @@ ENDCLASS.
 
 CLASS zcl_abap_sample_role_and_user IMPLEMENTATION.
   METHOD if_oo_adt_classrun~main.
+  " this is a sample from
+  " https://community.sap.com/t5/application-development-discussions/abap-table-within-a-table-how-to-fill-is-there-a-demo-example/td-p/12251735
     DATA r_result TYPE ty_users_roles.
     DATA lr_uname TYPE ty_r_uname.
     DATA(lr_arg_name) = VALUE ty_r_agr_name(  ).
